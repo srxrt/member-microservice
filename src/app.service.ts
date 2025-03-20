@@ -4,6 +4,6 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   public async signup(payload: any) {
     console.log('Member-service: service');
-    return payload + ' fucking returned';
+    return payload + ' returned';
   }
 }
